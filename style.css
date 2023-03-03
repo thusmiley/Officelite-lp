@@ -360,7 +360,7 @@ input:checked + .slider:before {
   left: 0;
   right: 0;
   margin: 0 auto;
-  max-width: 171px;
+  max-width: 70%;
 }
 
 @media screen and (min-width: 768px) {
@@ -419,7 +419,7 @@ input:checked + .slider:before {
   .plan button {
     position: absolute;
     bottom: 40px;
-    max-width: 171px;
+    max-width: 70%;
   }
 }
 #coming {

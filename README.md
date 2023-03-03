@@ -15,10 +15,14 @@ Desktop Design
 
 ![](./assets/preview.jpg)
 
+Packages Slider
+
+![](./assets/home/desktop-preview.jpg)
+
 ### Links
 
-- Git URL: https://github.com/thusmiley/clipboard-landing-page.git
-- Live Site URL: https://thusmiley.github.io/clipboard-landing-page/
+- Git URL: https://github.com/thusmiley/Officelite-lp.git
+- Live Site URL: https://thusmiley.github.io/Officelite-lp/
 
 
 ### Built with

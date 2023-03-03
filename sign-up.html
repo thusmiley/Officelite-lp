@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Officelite coming soon site" />
+    <meta name="keywords" content="HTML,CSS,JavaScript" />
+    <meta name="author" content="Thu Smiley" />
+    <meta property="og:image" content="./assets/preview.jpg" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Officelite | Sign Up</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="container">
+        <img src="./assets/shared/logo.svg" alt="logo" />
+      </div>
+    </header>
+    <main>
+      <div id="signup-content">
+        <!-- Hero banner -->
+        <section id="hero">
+          <div class="container hero-signup">
+            <div class="hero-content hero-content-signup">
+              <h1>Work smarter. Save time.</h1>
+              <p>
+                Easily manage your projects. Get on the list and receive in-app
+                perks available only to early subscribers. We are moving into
+                final development and getting ready for official launch soon.
+              </p>
+            </div>
+          </div>
+        </section>
+        <!-- Coming soon -->
+        <section id="coming-signup">
+          <div class="container">
+            <h2>COMING <span>APRIL 01 2023</span></h2>
+            <div class="countdown-container" id="counting">
+              <div class="countdown">
+                <h4 class="days"></h4>
+                <p>days</p>
+              </div>
+              <div class="countdown">
+                <h4 class="hours"></h4>
+                <p>hours</p>
+              </div>
+              <div class="countdown">
+                <h4 class="minutes"></h4>
+                <p>min</p>
+              </div>
+              <div class="countdown">
+                <h4 class="seconds"></h4>
+                <p>sec</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <!-- Coming soon -->
+      <section id="signup">
+        <div class="container">
+          <form id="signup-form" action="">
+            <input type="text" id="name" placeholder="Name*" required />
+            <input
+              type="email"
+              id="email"
+              placeholder="Email Address*"
+              required
+            />
+            <input
+              id="packs"
+              list="packs"
+              name="packs"
+              placeholder="Basic Pack Free"
+              required
+            />
+            <datalist>
+              <option>Basic Pack <span>Free</span></option>
+              <option>Pro Pack <span>$9.99</span></option>
+              <option>Ultimate Pack <span>$19.99</span></option>
+            </datalist>
+            <input type="number" id="phone" placeholder="Phone Number" />
+            <input type="text" id="company" placeholder="Company" />
+            <input
+              class="submit btn-blue"
+              type="submit"
+              value="Get on the list"
+            />
+          </form>
+        </div>
+      </section>
+    </main>
+    <script src="./signup.js"></script>
+  </body>
+</html>

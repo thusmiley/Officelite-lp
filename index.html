@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Officelite coming soon site" />
+    <meta name="keywords" content="HTML,CSS,JavaScript" />
+    <meta name="author" content="Thu Smiley" />
+    <meta property="og:image" content="./assets/preview.jpg" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Officelite coming soon site</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="container">
+        <img src="./assets/shared/logo.svg" alt="logo" />
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero banner -->
+      <section id="hero">
+        <div class="container">
+          <img src="./assets/home/illustration-charts.svg" alt="" />
+          <div class="hero-content">
+            <h1>A simple solution to complex tasks is coming soon</h1>
+            <p>
+              Say goodbye to inefficient juggling of multiple apps, teams, and
+              projects. Officelite is the new collaboration platform built with
+              an intuitive interface to improve productivity.
+            </p>
+            <button class="btn-blue">
+              <a href="./sign-up.html">Get Started</a>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Our pricing -->
+      <section id="pricing">
+        <div class="container">
+          <h2>Our Pricing</h2>
+          <!-- Plans -->
+          <div id="switch">
+            <span>Monthly</span>
+            <label for="checkbox" class="toggle"
+              ><input type="checkbox" id="checkbox" />
+              <span class="slider round"></span
+            ></label>
+            <span>Annually</span>
+          </div>
+
+          <div class="plans">
+            <!-- Basic -->
+            <div class="plan bg-white">
+              <div class="plan-left">
+                <h3>Basic</h3>
+                <h4>Free</h4>
+                <p>Up to 5 users for free</p>
+                <button class="btn-gray">Try for Free</button>
+              </div>
+
+              <div class="features">
+                <span>Basic document collaboration</span>
+                <span>2 GB storage</span>
+                <span>Great security and support</span>
+              </div>
+            </div>
+
+            <!-- Pro -->
+            <div class="plan bg-blue">
+              <div class="plan-left">
+                <h3>Pro</h3>
+                <h4 class="monthly">$9.99</h4>
+                <h4 class="annually">$99.99</h4>
+                <p>Per user, billed monthly</p>
+                <button class="btn-white">Try for Free</button>
+              </div>
+
+              <div class="features">
+                <span>All essential integrations</span>
+                <span>50 GB storage</span>
+                <span>More control and insights</span>
+              </div>
+            </div>
+
+            <!-- Ultimate -->
+            <div class="plan bg-white">
+              <div class="plan-left">
+                <h3>Ultimate</h3>
+                <h4 class="monthly">$19.99</h4>
+                <h4 class="annually">$199.99</h4>
+                <p>Per user, billed monthly</p>
+                <button class="btn-gray">Try for Free</button>
+              </div>
+
+              <div class="features">
+                <span>Robust work management</span>
+                <span>100 GB storage</span>
+                <span>VIP support</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Coming soon -->
+      <section id="coming">
+        <div class="container">
+          <div class="coming-left">
+            <h2>COMING <span>APRIL 01 2023</span></h2>
+            <div class="countdown-container" id="counting">
+              <div class="countdown">
+                <h4 class="days"></h4>
+                <p>days</p>
+              </div>
+              <div class="countdown">
+                <h4 class="hours"></h4>
+                <p>hours</p>
+              </div>
+              <div class="countdown">
+                <h4 class="minutes"></h4>
+                <p>min</p>
+              </div>
+              <div class="countdown">
+                <h4 class="seconds"></h4>
+                <p>sec</p>
+              </div>
+            </div>
+          </div>
+          <button class="btn-blue">
+            <a href="./sign-up.html">Get Started</a>
+          </button>
+        </div>
+      </section>
+    </main>
+    <script src="./index.js"></script>
+  </body>
+</html>

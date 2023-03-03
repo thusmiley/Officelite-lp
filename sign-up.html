@@ -76,16 +76,18 @@
               required
             />
             <input
-              id="packs"
+              type="text"
               list="packs"
               name="packs"
               placeholder="Basic Pack Free"
               required
             />
-            <datalist>
-              <option>Basic Pack <span>Free</span></option>
-              <option>Pro Pack <span>$9.99</span></option>
-              <option>Ultimate Pack <span>$19.99</span></option>
+            <datalist id="packs">
+              <select>
+                <option>Basic Pack <span>Free</span></option>
+                <option>Pro Pack <span>$9.99</span></option>
+                <option>Ultimate Pack <span>$19.99</span></option>
+              </select>
             </datalist>
             <input type="number" id="phone" placeholder="Phone Number" />
             <input type="text" id="company" placeholder="Company" />

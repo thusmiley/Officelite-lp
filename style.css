@@ -563,6 +563,8 @@ input:checked + .slider:before {
 }
 
 #signup-form input:not(:last-child) {
+  -webkit-appearance: none !important;
+  border-radius: 0;
   border: none;
   border-bottom: 1px solid #747B95;
   padding: 0 0 16px 17px;
@@ -574,7 +576,6 @@ input:checked + .slider:before {
   line-height: 28px;
   outline: none;
   caret-color: #5175FF;
-  -webkit-appearance: none;
   font-family: "Kumbh Sans", sans-serif;
 }
 #signup-form input:not(:last-child):active, #signup-form input:not(:last-child):focus {
@@ -615,9 +616,11 @@ datalist option span {
 }
 
 .submit {
+  -webkit-appearance: none;
   width: 100%;
   margin: 40px 0 24px 0;
   padding: 14px 41px;
+  height: 56px;
 }
 
 @media screen and (min-width: 768px) {

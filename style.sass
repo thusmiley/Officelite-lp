@@ -395,6 +395,8 @@ input:checked + .slider:before
     left: calc(8px + 1.5625vw)
     right: calc(8px + 1.5625vw)
 #signup-form input:not(:last-child)
+    -webkit-appearance: none
+    border-radius: 0
     border: none
     border-bottom: 1px solid $light-gray
     padding: 0 0 16px 17px
@@ -406,7 +408,6 @@ input:checked + .slider:before
     line-height: 28px
     outline: none
     caret-color: $blue
-    -webkit-appearance: none
     font-family: 'Kumbh Sans', sans-serif
     &:active, &:focus 
         color: $gray
@@ -438,6 +439,7 @@ datalist option span
     width: 100%
     margin: 40px 0 24px 0
     padding: 14px 41px
+    -webkit-appearance: none
 @media screen and (min-width: 768px) 
     #signup-form
         max-width: 445px

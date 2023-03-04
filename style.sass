@@ -395,7 +395,7 @@ input:checked + .slider:before
     left: calc(8px + 1.5625vw)
     right: calc(8px + 1.5625vw)
 #signup-form input:not(:last-child)
-    -webkit-appearance: none
+    -webkit-appearance: none !important
     border-radius: 0
     border: none
     border-bottom: 1px solid $light-gray
@@ -436,10 +436,11 @@ datalist option
 datalist option span
     color: $light-gray
 .submit 
+    -webkit-appearance: none
     width: 100%
     margin: 40px 0 24px 0
     padding: 14px 41px
-    -webkit-appearance: none
+    height: 56px
 @media screen and (min-width: 768px) 
     #signup-form
         max-width: 445px
